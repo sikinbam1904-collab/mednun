@@ -85,12 +85,12 @@ module.exports = async function handler(req, res) {
   const title =
     firestoreString(config, 'socialTitle') ||
     firestoreString(config, 'shopTitle') ||
-    '𝙈𝙮 𝙡𝙖𝙣𝙙 ♡';
+    '🌷mednun store 🌟';
 
   const description =
     firestoreString(config, 'socialDescription') ||
     firestoreString(config, 'shopDesc') ||
-    'ยินดีต้อนรับสู่เว็บไซต์ของร้านค่ะ ♡';
+    'โอนเงินกดตรง Payment ( อย่าลืมกำกับสลิปทุกครั้ง )🌟🌷';
 
   const image = absoluteUrl(
     firestoreString(config, 'socialImage') ||
